@@ -1,7 +1,11 @@
 # Pokdemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
+
+- we used to kill the progress on port 4200 : ``sudo kill $(sudo lsof -t -i:4200)``
+
+- Update version Angular cli ``ng update @angular/cli --migrate-only --from=<WhateverVersionYouAreCurrentlyOn>``.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
